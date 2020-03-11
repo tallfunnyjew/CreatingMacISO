@@ -34,7 +34,7 @@ hdiutil=`which hdiutil`
 mv=`which mv`
 rm=`which rm`
 date=`which date`
-echolog=`which echolog`
+echo=`which echo`
 
 #----- Standards
 script=$"Creating macOS iso"
@@ -51,12 +51,12 @@ Log="/Library/Logs/CreatingMacOSisoFile"
 # fi
 
 #----- Functions
-echolog()		#Helps to direct certain output to the screen, others to our log file
+echolog()		#Directs output to both the screen and our log file
 (
 echo $1
 echo $1 >> $Log
 )
-# Thank you Andru Witta: https://unix.stackexchange.com/questions/80707/how-to-output-text-to-both-screen-and-file-inside-a-shell-script
+# Thank you, Andru Witta: https://unix.stackexchange.com/questions/80707/how-to-output-text-to-both-screen-and-file-inside-a-shell-script
 
 #----------------------------------------------------------
 #  Timestamp

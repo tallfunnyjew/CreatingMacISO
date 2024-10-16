@@ -14,6 +14,6 @@ THE SCRIPT HAS ONLY ONE REQUIREMENT: that you've already downloaded a valid macO
 - [macOS 10.13 HighSierra](https://itunes.apple.com/us/app/macos-high-sierra/id1246284741?ls=1&mt=12)
 - [macOS 10.12 Sierra](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg)
 
-Once the installer has downloaded, it will auto-launch. Just QUIT the installer and then run this script with admin/sudo rights. It will automate making an iso file from any of the macOS installers listed above.
+The download should place the new macOS installer into your /Applications folder. When the download is complete, it will auto-launch. When this happens, just QUIT the installer and then run this script with admin/sudo rights. It will automate making an iso file from any of the macOS installers listed above.
 
 I'll update over time.

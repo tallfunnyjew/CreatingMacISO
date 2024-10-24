@@ -3,7 +3,7 @@ A short shell script to automate the process of creating an ISO file of any prev
 
 This script will create an iso file from most previous macOS installer files. Those ISOs can then be used to install macOS into most common VM apps like Virtualbox, VMware, or Parallels which struggle with DMG files. 
 
-THE SCRIPT HAS ONLY ONE REQUIREMENT: that you've already downloaded a valid macOS installer file. If you haven't done that yet, just use the following links:
+THE SCRIPT HAS TWO REQUIREMENTS: that you've already downloaded a valid macOS installer file and have at least 30GB of free space on your internal HD. Use the following links to grab your installers:
 
 - [macOS 14.7 Sonoma](https://swcdn.apple.com/content/downloads/42/57/062-78824-A_60MNDAK5UB/dov1trqs34ol9r0b3zt3swgw04ndf7ctwm/InstallAssistant.pkg)
 - [macOS 13.7 Ventura](https://swcdn.apple.com/content/downloads/05/02/062-78643-A_T7YK72IEUB/f6jf452yv3xah9gljv28yxjs5x5bm7p1fr/InstallAssistant.pkg)
